@@ -1,0 +1,13 @@
+#!/bin/bash
+
+blockMesh
+
+renumberMesh -overwrite
+
+cp -r 0.orig 0
+
+decomposePar -force
+
+foamJob -parallel -screen rhoCentralFoam
+
+reconstructPar 
