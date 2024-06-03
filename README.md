@@ -3,11 +3,6 @@
 ## This case models a shockwave on a 23 degree wedge.
 
 
-  ![crab pet](https://s2.ezgif.com/tmp/ezgif-2-bb7294c292.gif)
-
-
-
-
 + To run the case
 
 ```
